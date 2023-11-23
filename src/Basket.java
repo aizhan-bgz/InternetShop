@@ -32,7 +32,10 @@ public class Basket {
             }
         }
         if (totalCost>10000){
-            totalCost= totalCost * 0.9;}
+            Double discount = totalCost * 0.1;
+            System.out.println("Общая скидка: " + discount);
+            totalCost = totalCost - discount;
+        }
         System.out.println("Общая стоимость товаров : " + totalCost );
     }
 }

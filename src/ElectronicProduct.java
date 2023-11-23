@@ -24,8 +24,8 @@ public class ElectronicProduct implements Product {
     @Override
     public void displayInfo() {
         System.out.println("Name of product: " + name +
-                "\nprice of product: " + price +
-                "\nweight of product: " + weight
+                ", price of product: " + price +
+                ", weight of product: " + weight
         );
     }
     @Override

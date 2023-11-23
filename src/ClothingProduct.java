@@ -14,9 +14,9 @@ public class ClothingProduct implements Product {
     @Override
     public void displayInfo() {
         System.out.println("Brand of product: " + brand +
-                "\ncolor of product: " + color +
-                "\nsize of product: " + size +
-                "\nprice of product: " + price);
+                ", color of product: " + color +
+                ", size of product: " + size +
+                ", price of product: " + price);
     }
     @Override
     public Double calculateShippingCost(Double distance) {
